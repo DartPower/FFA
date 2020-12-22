@@ -3,3 +3,4 @@ version: @version@-@apiversion@
 author: DartPower
 website: https://github.com/dptmc/FFA
 main: io.dpteam.FFA.Main
+api-version: 1.13
