@@ -19,12 +19,12 @@ public class Main extends JavaPlugin implements Listener {
 
 	public void onEnable() {
 		Bukkit.getServer().getPluginManager().registerEvents(this, this);
-		Bukkit.getServer().getLogger().info("[DPT.MC] FFA Enabled");
+		this.getServer().getLogger().info("[FFA] Plugin loaded and enabled");
 	}
 
 	@Override
 	public void onDisable() {
-		Bukkit.getServer().getLogger().info("[DPT.MC] FFA Disabled");
+		this.getServer().getLogger().info("[FFA] Plugin unloaded and disabled");
 	}
 
 	@EventHandler
