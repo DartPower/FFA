@@ -18,8 +18,8 @@
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.16.4-R0.1-SNAPSHOT</version>
+            <artifactId>spigot</artifactId
+            <version>1.17.1-R0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
